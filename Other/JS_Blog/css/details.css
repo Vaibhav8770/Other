@@ -1,0 +1,37 @@
+.post {
+    width: 50rem;
+    margin: 1rem auto;
+    background-image: linear-gradient(to right, #fae1dd, #caf0f8);
+    padding: 1rem;
+    border-radius: 0 30px 0 30px;
+}
+
+.post h2 {
+    font-family: 'Pacifico', cursive;
+    background-color: #d8e2dc;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.post a {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(9, 22, 36);
+    font-style: italic;
+}
+
+.post p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #d8e2dc;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+img {
+    margin: -4rem 0px 15px 20px;
+    float: right;
+    width: 200px;
+    height: 200px;
+}

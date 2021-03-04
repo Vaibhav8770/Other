@@ -1,21 +1,193 @@
 {
-    "posts": [{
-            "id": 1,
-            "title": "Vlad",
-            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur pariatur ipsam eius veniam nostrum et cumque provident autem ullam, dolor similique inventore assumenda sunt eligendi error voluptatibus enim eos.",
-            "likes": 30
-        },
-        {
-            "id": 2,
-            "title": "DieTric",
-            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur pariatur ipsam eius veniam nostrum et cumque provident autem ullam, dolor similique inventore assumenda sunt eligendi error voluptatibus enim eos.",
-            "likes": 20
-        },
-        {
-            "id": 3,
-            "title": "LanceLot",
-            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur pariatur ipsam eius veniam nostrum et cumque provident autem ullam, dolor similique inventore assumenda sunt eligendi error voluptatibus enim eos.",
-            "likes": 50
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Scorpion",
+      "body": "Scorpion has served as a mascot to Mortal Kombat since its beginnings. This character is a human whose real name is Hanzo Hasashi. His family was killed, which led him into the life of an assassin. His skills are malevolent and gory, with ingenuity such as hellfire and teleportation serving as his culminating powers.Scorpion wears a yellow costume,has glowing white eyes,and a signature protective mask.Unmasked Scorpion is known as Inferno Scorpion.Scorpion 's weapons of choice include the Kunai, Scorpion Sting, and Spear, among a long inventory of other powers",
+      "image": "./Images/Scorpion.jpg",
+      "likes": 100
+    },
+    {
+      "id": 2,
+      "title": "Sub Zero",
+      "body": "Another leader in the Mortal Kombat series, Sub-Zero is on par with his rival, Scorpion. Their garments are distinctively similar, with Sub-Zero’s vestiges being blue instead of yellow. Sub-Zero is the master of ice manipulation and is known for freezing his opponents in order to attack. His human name is Bi-Han, who is sent on a mission to take treasure from Shang Tsung. In the original fighting tournament, Sub Zero is killed by his nemesis, Scorpion, and is later resurrected as Noob Saibot.Sub - Zero’ s ice projectile is said to be one of the most innovative mechanics to have been enlisted into a gaming character.Furthermore,his Spinal Rip Fatality move is noted as one of the most morbid character actions,which gave Sub - Zero his merciless disposition.",
+      "image": "./Images/SubZero.jpg",
+      "likes": 80
+    },
+    {
+      "id": 3,
+      "title": "Raiden",
+      "body": "In his original timeline, Raiden was a mortal who resided in the Earthrealm. He typically wore white robes with a blue vest and a straw hat. His abilities have always consisted of electrical bolts and he is able to move as quick as lightning. He can also teleport, shock, and can sometimes summon a lightning rod.In current Mortal Kombat storylines, Raiden is the God of Thunder and Protector of Earthrealm. He eventually turns in to Dark Raiden, where his glowing white eyes transform into red. In this form, he is heavily armored, though his signature straw hat is intact.",
+      "image": "./Images/Raiden.jpg",
+      "likes": 90
+    },
+    {
+      "id": 4,
+      "title": "Liu Kang",
+      "body": "In the earliest version of the fighting game, Liu Kang served as a traditional combat fighter, who was best known for his martial arts capabilities. He is a pastiche of Bruce Lee and generally serves as the protagonist in the game and other media works. His garb is made up of only black pants with red attributes added to his later renditions.",
+      "image": "./Images/LiuKang.jpg",
+      "likes": 95
+    },
+    {
+      "id": 5,
+      "title": "Shao Kahn",
+      "body": "Shao Kahn debuted in Mortal Kombat II in 1993. His outward gear only consists of spiked armor, a headpiece, and a dominating staff, with his chest left predominantly bare. His inner capabilities range from superhero strength to magical proficiency.This character has always been a massively strong and effective character throughout Mortal Kombat’ s series.He harnesses the power of a green energy and can even absorb the souls of his opponents.His Wrath Hammer is another one of his more elaborate props that works to disarm his attackers.",
+      "image": "./Images/ShaoKahn.jpg",
+      "likes": 100
+    },
+    {
+      "id": 6,
+      "title": "Shang Tsung",
+      "body": "Soul Sorcerer and historic host of the Mortal Kombat. Born in Earthrealm, Shang Tsung’s relentless pursuit of powerful magic led him to Outworld, where Shao Kahn offered him a dark power that no sorcerer on Earthrealm could. Shang Tsung pledged his eternal loyalty to Shao Kahn in exchange for this evil magic, but he is no faithful servant. He dreams of the day his sorcery will overtake Shao Kahn’s, and he’ll pay any price to get there.",
+      "image": "./Images/ShangTsung.jpg",
+      "likes": 85
+    },
+    {
+      "id": 7,
+      "title": "Kitana",
+      "body": "This 10,000-year-old princess hails from Edenia. Her age is unencumbered by her looks, which reflect that of a young woman with a strong physique. Kitana is the stepdaughter of Shao Kahn, whom she eventually betrays. Alongside her romantic partner, Liu Kang, she became one of the leaders of the Netherrealm.Kitana’ s attire consists of a royal blue one - piece,and she usually wears a matching face mask.She sometimes relies on her Steel Fans during battle to unarm her opponent or to help her levitate.Her main skills,however,fall under hand to hand combat.",
+      "image": "./Images/Kitana.jpg",
+      "likes": 87
+    },
+    {
+      "id": 8,
+      "title": "Cassie Cage",
+      "body": "Cassie Cage is the daughter of Johnny Cage and Sonya Blade, two of the characters who pioneered the initial Mortal Kombat game. Although Cassie is only human, she inherited her superhuman strength from her father. Her signature moves consist of the Glow Kick which facilitates aerial moves as her body glows green from the Shadow Energy. Her mother taught her combat skills including the infamous Nut Cracker which disables her male opponents quite effective Cassie has short blonde hair from her mother and showcases sass like her father.She heads a special forces task team in the Earthrealm and is constantly trying to live up to her parents legacy.",
+      "image": "./Images/CassieCage.jpg",
+      "likes": 92
+    },
+    {
+      "id": 9,
+      "title": "Noob Saibot",
+      "body": "Shadow of the Netherrealm. In life, Noob Saibot was known as Sub-Zero. Unjustly murdered by Scorpion, he was resurrected by Quan Chi and granted power over darkness, but as Quan Chi’s slave. Now, Quan Chi is dead. Noob Saibot is finally free to reclaim the honor that was stolen from him.",
+      "image": "./Images/Noob.jpg",
+      "likes": 98
+    },
+    {
+      "id": 10,
+      "title": "Kung Lao",
+      "body": "Shaolin monk and descendant of Great Kung Lao. The younger Kung Lao claimed his greatness by beating the deadly alliance of Shang Tsung and Quan Chi in Mortal Kombat. Reckless and rebellious, but courageous and indomitable, Kung Lao fights to prove worthy of his glorious ancestors.",
+      "image": "./Images/KungLao.jpg",
+      "likes": 81
+    },
+    {
+      "id": 11,
+      "title": "Kenshi",
+      "body": "Kenshi is a rogue swordsman of Eurasian heritage who possesses psychokinetic powers and nurses a bitter hatred for the evil sorcerer named Shang Tsung, whose deceit had resulted in Kenshi's living. Since debuting in 2002's Mortal Kombat: Deadly Alliance, he has persistently featured in the series storyline by freeing Ermac from Outworld emperor Shao Kahn's control, joining the Special Forces alongside Jax and Sonya Blade, and seeking to bring down Mavado and his Red Dragon faction, in addition to associating with the likes of Sub-Zero and Johnny Cage.",
+      "image": "./Images/Kenshi.jpg",
+      "likes": 90
+    },
+    {
+      "id": 12,
+      "title": "Ermac",
+      "body": "Ermac has been a controversial and mysterious character in the Mortal Kombat series whose existence was rumored since its inception. Ermac is a fusion of the many souls destroyed in Outworld's wars, only to be controlled by Emperor Shao Kahn and his Shadow Priests. Because of this, he refers to himself as 'we', 'our', 'us', and 'ours', instead of 'I','my','me ', and 'mine'. Because of the sheer concentration of souls within Ermac, he possesses the gifts of telekinesis, teleportation, and the ability to travel between realms.",
+      "image": "./Images/Ermac.jpg",
+      "likes": 97
+    },
+    {
+      "id": 13,
+      "title": "Baraka",
+      "body": "War Chief of the nomadic Tarkatan tribe, a carnivorous people considered subhuman by the Outworld Empire. Baraka dutifully serves Shao Kahn to preserve his tribe’s way of life, who roam the harsh Wastelands, meat carts in tow, consuming everything and everyone in their path.",
+      "image": "./Images/Baraka.jpg",
+      "likes": 88
+    },
+    {
+      "id": 14,
+      "title": "Jax Briggs",
+      "body": "Cyber-enhanced officer of the Special Forces. Jax Briggs lost both arms in the line of duty, but he came back to the battlefield twice as strong thanks to cybernetic upgrades. Even with that power, Jax’s sacrifices burden him. He soldiers onward, honorbound to protect Earthrealm.",
+      "image": "./Images/JaxBriggs.jpg",
+      "likes": 79
+    },
+    {
+      "id": 15,
+      "title": "Nightwolf",
+      "body": "Every generation, the Great Spirit chooses a worthy warrior to become Nightwolf: the Matoka’s champion and protector. Grey Cloud proved worthy when he laid down his life to prevent the Black Dragon from plundering what remained of his tribe’s sacred artifacts. As Nightwolf, Grey Cloud possesses extraordinary magic granted by the Great Spirit. He uses it not only to fight for the Matoka’s future, but also to defend all of Earthrealm.",
+      "image": "./Images/NightWolf.jpg",
+      "likes": 81
+    },
+    {
+      "id": 16,
+      "title": "Sonya Blade",
+      "body": "Decorated officer of the Special Forces. Sonya braved the Mortal Kombat tournament, defended Earthrealm, and rescued her partner, Jax Briggs. Serious to a fault, she never takes time for personal leave, preferring to remain vigilant until all realms are safe from conquest.",
+      "image": "./Images/SonyaBlaze.jpg",
+      "likes": 82
+    },
+    {
+      "id": 17,
+      "title": "Johnny Cage",
+      "body": "B-list celebrity, recipient of no acting awards. Following a string of lowbrow direct-to- VHS sequels to Ninja Mime , Johnny Cage’s career peaked at the age of 28. Now, he fights against all odds to save Earthrealm and prove that he’s an even braver hero in real life than on the silver screen.",
+      "image": "./Images/JohnyCage.jpg",
+      "likes": 86
+    },
+    {
+      "id": 18,
+      "title": "Kano",
+      "body": "Arms dealer and leader of the Black Dragon. Kano prides himself as the ultimate deal- maker, with a black market network that spans the realms, but he is never satisfied. Even his loyal followers know he’d stab his mother in the back if the price was right.",
+      "image": "./Images/Kano.jpg",
+      "likes": 62
+    },
+    {
+      "id": 19,
+      "title": "Jade",
+      "body": "Stealth assassin and Imperial Bodyguard. Jade’s family traded her to Shao Kahn as a child. Though he was the only 'parent' and master she ever knew, Jade refused his orders to kill her closest friend,Kitana. The Emperor turned against Jade. Now she vows to end his reign.",
+      "image": "./Images/Jade.jpg",
+      "likes": 90
+    },
+    {
+      "id": 20,
+      "title": "Erron Black",
+      "body": "The best shot in Texas left home to seek adventure and excitement in Outworld with Kano and the Black Dragon. Outworld turned out to be the playground of Erron’s ultraviolent dreams. He decided to make his home there as the deadliest outlander in Outworld.",
+      "image": "./Images/ErronBlack.jpg",
+      "likes": 93
+    },
+    {
+      "id": 21,
+      "title": "Mileena",
+      "body": "Mileena is the product of Shang Tsung’s diabolical cloning experiments: a perfect blend of Tarkatan ferocity and athletic grace. Brought forward in the timeline by Kronika, Mileena has learned of her tragic future. Her enemies now must submit, or die.",
+      "image": "./Images/Mileena.jpg",
+      "likes": 89
+    },
+    {
+      "id": 22,
+      "title": "Kabal",
+      "body": "Fleet-footed Black Dragon enforcer. Kabal’s sprinting speed is only outpaced by his greed. He was a rookie cop until Kano tempted him to sell out his police department for cash money and a spot in the Black Dragon. Kabal has run down anyone who's crossed Kano ever since.",
+      "image": "./Images/Kabal.jpg",
+      "likes": 87
+    },
+    {
+      "id": 23,
+      "title": "Sheeva",
+      "body": "The male Shokan scoffed when Sheeva entered their contest to choose the Shokan’s next leader. But Sheeva proved herself more than their equal. After a resounding victory, she was crowned the first Queen of the Shokan. As Queen, Sheeva now leads her people in the fight to attain their rightful place, as partners in Outworld’s rule.",
+      "image": "./Images/Sheeva.jpg",
+      "likes": 80
+    },
+    {
+      "id": 24,
+      "title": "Jacqui Briggs",
+      "body": "The daughter of Jax Briggs. Jacqui defied her father when she joined the Special Forces. Seeing what he sacrificed as a soldier didn’t scare her. It stirred a desire to protect her family and her homeland. She hustles hard and punches above her weight, proudly carrying on the Briggs legacy.",
+      "image": "./Images/Jacqui.jpg",
+      "likes": 89
+    },
+    {
+      "title": "Quan Chi",
+      "body": "Quan Chi is the most powerful sorcerer and necromancer in the Netherrealm and a primary villain in the Mortal Kombat series. Quan Chi combines both dark magic and cunning in his never-ending plots to overtake not only Earthrealm, but all of reality. He is notable in particular for his high intelligence and cold, calculating pragmatism, as well as his penchant for manipulating and exploiting vulnerable targets to further his own agenda. His actions have earned him many enemies, especially Sub-Zero and Scorpion.Only Shinnok, Shao Kahn, Shang Tsung and Delia can match Quan Chi's skills as a sorcerer.",
+      "image": "./Images/QuanChi.jpg",
+      "likes": 0,
+      "id": 25
+    },
+    {
+      "title": "Shinnok",
+      "body": "Shinnok is one of the most evil beings in the entire Mortal Kombat universe. A vengeful and powerful fallen Elder God of Death, Shinnok appeared in Mortal Kombat X as the main antagonist and final boss. He also made an appearance in Mortal Kombat: Armageddon, seemingly leading the side of evil.Unlike Shao Kahn, Shinnok relies less on brute strength and fear-mongering, and more on charisma, dark powers, ancient artifacts, and manipulation. He is the ruler of the Netherrealm, possessing millions of years' worth of knowledge and power. He can impersonate any being of his choosing, as well as transform himself into an immense demon. He possesses extreme cunning and the ability to manipulate events through others. For example, he had Quan Chi convince Shao Kahn to merge Earthrealm with Outworld against the Elder Gods' will, so that both realms would be severely weakened and left vulnerable to invasion by the Netherrealm.Shinnok demands unwavering faith and loyalty from his followers and will not hesitate to kill anyone who so much as doubts, challenges, or even poses a potential threat to him. However, as Shinnok is a former Elder God, it is not possible to actually kill him; he can only be imprisoned within his own amulet or incapacitated.",
+      "image": "./Images/Shinnok.jpg",
+      "likes": 0,
+      "id": 26
+    },
+    {
+      "title": "Reptile",
+      "body": "Reptile is a green garbed, humanoid reptilian creature that embodies the archetype of the unhappy underling. Said to be physically hideous and repulsive, he is renowned for his great stealth and unquestioning loyalty. Unlike many other henchmen, Reptile does not strive for power, nor is he inherently evil. He is caught in a delusional state of mind, obsessed with finding the last remaining member of his race, or freeing his homeworld of Zaterra from Outworld's grasp. Thus, he always remains loyal to Shao Kahn, only obeying other masters to survive and reach his goal of returning Zaterra to its former glory. While well-meaning and sincere, his obsession is so important to him that it causes him temporary fits of insanity. After Shao Kahn's death, his allegiance switches to over to Kotal Kahn, helping him to claim the throne from Mileena, whose rule he is displeased with.",
+      "image": "./Images/Reptile.jpg",
+      "likes": 0,
+      "id": 27
+    }
+  ]
 }

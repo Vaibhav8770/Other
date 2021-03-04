@@ -1,0 +1,58 @@
+.post {
+    width: 50rem;
+    margin: 1rem auto;
+    background-image: linear-gradient(to right, #fae1dd, #caf0f8);
+    padding: 1rem;
+    border-radius: 0 30px 0 30px;
+}
+
+.post h2 {
+    font-family: 'Pacifico', cursive;
+    background-color: #d8e2dc;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.post a {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(9, 22, 36);
+    font-style: italic;
+}
+
+.post p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #d8e2dc;
+    padding: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+.post span {
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    float: right;
+    bottom: 10px;
+}
+
+#nav {
+    width: 100%;
+    width: 50rem;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+#nav a {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(9, 22, 36);
+    font-style: italic;
+    margin-top: 1rem;
+    justify-self: right;
+    background-color: rgb(240, 238, 238);
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+}

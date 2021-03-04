@@ -1,0 +1,24 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    margin: 1rem 17rem;
+}
+
+form {
+    display: grid;
+}
+
+input,
+textarea {
+    padding: 0.5rem 1rem;
+    width: 50rem;
+    margin: 0.5rem auto;
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(240, 238, 238);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button {
+    width: 20rem;
+    margin: 1rem auto;
+}
