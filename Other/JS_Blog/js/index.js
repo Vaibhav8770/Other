@@ -1,6 +1,11 @@
-let data = document.querySelector('.blogs ');
-const renderPosts = async() => {
+let data = document.querySelector('.blogs');
+let search = document.querySelector('.search');
+
+const renderPosts = async(term) => {
     let url = 'http://localhost:3000/posts?_sort=likes&_order=desc';
+    if (term) {
+        url += `&q=${term}`
+    }
     let res = await fetch(url);
     let posts = await res.json();
     console.log(posts);
@@ -19,5 +24,11 @@ const renderPosts = async() => {
     });
     data.innerHTML = template;
 };
+
+
+search.addEventListener('submit', (e) => {
+    e.preventDefault();
+    renderPosts(search.term.value);
+})
 
 window.addEventListener('DOMContentLoaded', () => renderPosts());

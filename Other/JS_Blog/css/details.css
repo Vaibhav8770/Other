@@ -35,3 +35,16 @@ img {
     width: 200px;
     height: 200px;
 }
+
+button {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 1rem;
+    width: 12rem;
+    margin-left: 36rem;
+    padding: 5px;
+    font-weight: 600;
+    font-size: large;
+    border: 1px;
+    /* background: none; */
+    border-radius: 20px;
+}

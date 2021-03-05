@@ -1,5 +1,7 @@
 let id = new URLSearchParams(window.location.search).get('id');
 console.log(id);
+
+let deleteCharacter = document.querySelector('.delete');
 let data = document.querySelector('.details');
 let renderDetails = async() => {
     console.log('started');
@@ -17,4 +19,10 @@ let renderDetails = async() => {
                     </div>`
     data.innerHTML = template;
 }
+deleteCharacter.addEventListener('click', async(e) => {
+    await fetch('http://localhost:3000/posts/' + id, {
+        method: 'DELETE',
+    })
+    window.location.replace('index.html')
+})
 window.addEventListener('DOMContentLoaded', () => renderDetails())

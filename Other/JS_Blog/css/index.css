@@ -38,7 +38,6 @@
 }
 
 #nav {
-    width: 100%;
     width: 50rem;
     margin: 1rem auto;
     display: grid;
@@ -50,9 +49,41 @@
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(9, 22, 36);
     font-style: italic;
-    margin-top: 1rem;
+    margin-top: 1.8rem;
     justify-self: right;
-    background-color: rgb(240, 238, 238);
-    padding: 1rem 2.5rem;
-    border-radius: 2rem;
+}
+
+#nav img {
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+
+#nav h1 {
+    /* margin-top: ; */
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.search {
+    position: absolute;
+    right: 20rem;
+    top: 3rem;
+    /* display: none; */
+}
+
+#mag {
+    position: absolute;
+    right: 21rem;
+    top: 2.9rem;
+}
+
+input {
+    border: none;
+    border-bottom: dotted 2px #caf0f8;
+}
+
+input:focus {
+    border: none;
+    border-bottom: dotted 2px #caf0f8;
 }
