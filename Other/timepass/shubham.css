@@ -1,0 +1,73 @@
+body{
+  background-color: #caffbf;
+  margin: auto;
+  margin-left: 60px;
+  font-family: 'Sansita Swashed', cursive;
+  letter-spacing: 2px;
+  margin-right: auto;
+}
+img{
+  height: 230px;
+  width: 230px;float: left;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  color: #b5838d;
+}
+h2{
+  color: #b5838d;
+}
+h3{
+  color: #b5838d;
+}
+
+hr{
+  margin: 30px auto 30px auto;
+  width: 40%;
+  border: dotted #b7b7a4 5px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.parent_intro{
+  text-align: center;
+  margin-left: 60px;
+
+}
+.intro{
+  text-align: left;
+  width:auto;
+  margin-bottom: 100px;
+  margin-left: 270px;
+  margin-top: 30px;
+}
+.objective{
+  margin-left: 60px;
+}
+.technical-skills{
+  margin-left: 60px;
+  line-height: 2;
+}
+.experience{
+margin-left: 60px;
+}
+.project-working{
+margin-left: 60px;
+}
+.project-details{
+  line-height: 2;
+}
+.responsibilities{
+  margin-left: 60px;
+  line-height: 2;
+}
+.education{
+margin-left: 60px;
+}
+.details{
+  margin-left: 60px;
+  line-height: 2;
+}
+.declaration{
+margin-left: 60px;
+}
