@@ -1,0 +1,161 @@
+body{
+    background-color: #f6fff8;
+}
+
+#upperDiv {
+  width: 90%;
+  padding: 1rem 1.5rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display:grid;
+  grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
+}
+#root {
+  width: 37%;
+  margin-top: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 78vh;
+}
+#map {
+  width: 70vw;
+  height: 77vh;
+  margin-top: 2.5rem;
+  position: sticky;
+}
+.subRootDiv {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  /* border: 1px solid #22223b; */
+  overflow: auto;
+}
+.vehicleCount{
+  width: 28%;
+  font-size: xx-large;
+  font-weight: bold;
+  margin: auto;
+}
+.type{
+  /* font-size: xx-large; */
+  font-weight: bold;
+  margin:auto;  
+}
+#TotalVehicles{
+  width: 56%;
+}
+#RunningVehicles{
+  width: 71%;
+}
+#IdleVehicles{
+  width: 51%;
+}
+#ParkedVehicles{
+  width: 65%;
+}
+#DischargedVehicles{
+  width: 81%;
+}
+#DisconnectedVehicles{
+  width: 89%;
+}
+.vehicleDiv {
+  padding: 8px 4px;
+  font-weight: 500;
+  font-size: large;
+}
+.driverDiv {
+  padding: 8px 4px;
+  font-size: normal;
+}
+.status {
+  padding: 8px 4px;
+  font-size: normal;
+}
+.total{
+  background-color: #fff;
+  color: #000;
+  border:3px solid #000;
+  margin: 0 1rem;
+  padding: 2rem 0.5rem;
+  border-radius: 20px;
+}
+.total:hover{
+  color: #fff;
+  background-color: #000;
+}
+#running {
+  background-color: #fff;
+  color: green;
+  border:3px solid green;
+  margin: 0 1rem;
+  padding: 2rem 0.5rem;
+  border-radius: 20px;
+}
+#running:hover{
+  color: #fff;
+  background-color: green;
+}
+#idle {
+  background-color: #fff;
+  color: #fca311;
+  border:3px solid #fca311;
+  margin: 0 1rem;
+  padding: 2rem 0.5rem;
+  border-radius: 20px;
+}
+#idle:hover{
+  color: #fff;
+  background-color: #fca311;
+}
+#parked {
+  background-color: #fff;
+  color: blue;
+  border:3px solid blue;
+  margin: 0 1rem;
+  padding: 2rem 0.5rem;
+  border-radius: 20px;
+}
+#parked:hover{
+  color: #fff;
+  background-color: blue;
+}
+#discharged {
+  background-color: #fff;
+  color: rgb(218, 62, 62);
+  border:3px solid rgb(218, 62, 62);
+  margin: 0 1rem;
+  padding: 2rem 0.5rem;
+  border-radius: 20px;
+}
+#discharged:hover{
+  color: #fff;
+  background-color: rgb(218, 62, 62);
+}
+#disconnected {
+  background-color: #fff;
+  color: red;
+  border:3px solid red;
+  margin: 0 1rem;
+  padding: 2rem 0.5rem;
+  border-radius: 20px;
+}
+#disconnected:hover{
+  color: #fff;
+  background-color: red;
+}
+
+.MainDiv {
+  display: flex;
+  flex-direction: row;
+}
+.parked{
+  color: blue;
+}
+.idle{
+  color:#fca311;
+}
+.running{
+  color:green;
+}
