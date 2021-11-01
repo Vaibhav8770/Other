@@ -1,0 +1,108 @@
+#RootDiv{
+    display: flex;
+}
+#dataDiv{
+    width: 45%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 90vh;
+}
+.tableRow{
+    padding:1rem;
+    border-collapse: collapse;
+}
+.tableHead{
+    padding:1rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.tableData{
+    padding:1rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#table{
+    border-collapse: collapse;
+}
+#fastagDiv{
+    margin-left: 5rem;
+}
+#fastagDiv{
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.fastagdetails{
+    font-size: large;
+}
+.fastagButton{
+    width:10rem
+}
+#transactiontable{
+    margin-top: 3rem;
+    border-collapse: collapse;
+    width: 70%;
+}
+.tHead{
+    padding:1rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.tBody{
+    padding:1rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.ToDate{
+    margin-left: 1.5rem;
+}
+.warning{
+    color: chocolate;
+    margin-bottom: 2rem;
+}
+.transactiondetailsDiv{
+    width: 26%;
+    margin: auto;
+}
+.NoDataHeading{
+    width: 45%;
+    margin: auto;
+    margin-top: 8rem;
+    opacity: 0.3;
+}
+.GoButton{
+    width: 5rem;
+    border-radius: 3px;
+}
+.GetDatesDiv{
+    width: 17%;
+    margin: auto;
+    margin-top: 1rem;
+}
+/* .InputDatesDiv{
+
+} */
+
+/* .tHead{
+    padding:1rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.tBody{
+    padding:1rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
+.transactiondetailsDiv{
+    width: 26%;
+    margin: auto;
+}
+
+
+
+#transactiontable{
+    margin-top: 3rem;
+    border-collapse: collapse;
+    width: 70%;
+} */
